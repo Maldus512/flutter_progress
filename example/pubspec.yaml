@@ -1,0 +1,35 @@
+name: flutter_progress_example
+description: An example app for flutter_progress
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_progress:
+    path: ../
+
+  cupertino_icons: ^1.0.5
+
+  flutter_svg: ^2.0.1
+
+  # Just to demonstrate a download progress
+  dio: ^4.0.6
+  path: ^1.8.2
+  path_provider: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
